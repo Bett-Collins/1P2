@@ -1,10 +1,12 @@
 body {
   background-color: #E1EBE6;
+  width: 800px;
 }
 
 
-header {
+.header {
   display: flex;
+  background-image: url('../../images/image2.png');
 }
 .logo {
   display: flex;
@@ -12,20 +14,28 @@ header {
 .list ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+
 }
+.list li {
+padding: 0px 15px;
+}
+
+
+
 .list button {
   background-color: yellow;
 }
 .section1 {
   margin-left: 10%;
-  background-image: url(image);
+  
+  margin-top: 2%;
 }
 .section1 button{
   background-color: yellow;
 }
 .section2 {
   margin-left: 20%;
+  
 }
 .section2 h2 {
   margin-left: 30%;
@@ -37,10 +47,13 @@ header {
   width: 600px;
   margin: 20%;
   justify-content: center;
+
 }
 .one {
   border: solid #E1EBE6;
   background-color: white;
+  padding: 10%;
+  margin-right: 2%;
 }
 .two {
   border: solid #E1EBE6;
@@ -50,4 +63,72 @@ header {
 .three {
   border: solid #E1EBE6;
   background-color: white;
+}
+.BTN {
+  background-color: tomato;
+  font-size: 30px;
+  border-radius: 100%;
+}
+
+.section3 {
+  display: flex;
+}
+.P {
+  margin: 5%;
+}
+.section4 {
+}
+.section4 h3 {
+  margin-left: 50%;
+}
+
+.Menu {
+  display: flex;
+  margin: 1%;
+  border: solid grey;
+  background-color: white;
+}
+.Beaf {
+  display: flex;
+  margin: 1%;
+  border: solid grey;
+  background-color: white;
+}
+.C {
+margin: 2%;
+margin-bottom: 5%;
+}
+
+.Beaf {
+  display: flex;
+  margin: 1%;
+}
+
+.S {
+  margin: 2%;
+}
+
+.General {
+  display: flex;
+  margin-left: 15%;
+}
+
+
+.Plain{
+  display: flex;
+  margin: 2%;
+  border: solid grey;
+  background-color: white;
+}
+.Stew {
+  display: flex;
+ margin: 2%;
+  border: solid grey;
+  background-color: white;
+}
+.General1 {
+  display: flex;
+}
+.section5 {
+  margin: 35%;
 }
