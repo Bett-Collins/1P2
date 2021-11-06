@@ -35,35 +35,34 @@ padding: 0px 15px;
 }
 .section2 {
   margin-left: 20%;
+  align-items: center;
+
   
 }
 .section2 h2 {
   margin-left: 30%;
   color: yellow;
 }
+.Service {
+  border: solid grey;
+}
+
 #Order {
   display: flex;
   background-color: white;
   width: 600px;
-  margin: 20%;
+  margin: 10%;
   justify-content: center;
+  align-items: center;
+  height: 200px;
 
 }
 .one {
-  border: solid #E1EBE6;
-  background-color: white;
-  padding: 10%;
-  margin-right: 2%;
-}
-.two {
-  border: solid #E1EBE6;
-  background-color: white;
-}
+  text-align: center;
   
-.three {
   border: solid #E1EBE6;
-  background-color: white;
 }
+
 .BTN {
   background-color: tomato;
   font-size: 30px;
@@ -72,9 +71,13 @@ padding: 0px 15px;
 
 .section3 {
   display: flex;
+  background-color: black;
+  color: white;
+
 }
+
 .P {
-  margin: 5%;
+ margin-left: 2%;
 }
 .section4 {
 }
