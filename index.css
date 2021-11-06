@@ -1,3 +1,8 @@
+body {
+  background-color: #E1EBE6;
+}
+
+
 header {
   display: flex;
 }
@@ -10,5 +15,39 @@ header {
   justify-content: space-between;
 }
 .list button {
-background-color: yellow;
+  background-color: yellow;
+}
+.section1 {
+  margin-left: 10%;
+  background-image: url(image);
+}
+.section1 button{
+  background-color: yellow;
+}
+.section2 {
+  margin-left: 20%;
+}
+.section2 h2 {
+  margin-left: 30%;
+  color: yellow;
+}
+#Order {
+  display: flex;
+  background-color: white;
+  width: 600px;
+  margin: 20%;
+  justify-content: center;
+}
+.one {
+  border: solid #E1EBE6;
+  background-color: white;
+}
+.two {
+  border: solid #E1EBE6;
+  background-color: white;
+}
+  
+.three {
+  border: solid #E1EBE6;
+  background-color: white;
 }
