@@ -19,7 +19,7 @@ body {
 }
 
 .logo h5 {
-  color: orange;
+  color: #F19201;
 }
 
 .list ul {
@@ -34,11 +34,12 @@ body {
 
 
 .list button {
-  background-color: orange;
+  background-color: #F19201;
 }
 
 .H {
-  color: orange;
+  color: ;
+
 }
 
 .A {
@@ -59,7 +60,7 @@ body {
 
 
 .section1 button {
-  background-color: orange;
+  background-color: #F19201;
 }
 
 .Service {
@@ -70,7 +71,7 @@ body {
 }
 
 .Service h2 {
-  color: orange;
+  color: #F19201;
   
 }
 
@@ -94,7 +95,7 @@ body {
 }
 
 .BTN {
-  background-color: orange;
+  background-color: #F19201;
   font-size: 30px;
   border-radius: 100%;
   margin-top: 13%;
@@ -117,7 +118,7 @@ body {
 }
 
 .section4 h3 {
-  color: orange;
+  color: #F19201;
   margin-left: 50%;
 }
 
@@ -216,13 +217,20 @@ margin-bottom: 120%;
   display: flex;
   border: solid white;
   background-color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 230px;
+  
 }
 
 .Beaf {
   display: flex;
   border: solid white;
-  margin-left: 15%;
+  margin-left: 10%;
   background-color: white;
+  height: 230px;
+  margin-top: 4%;
+
   
 }
 
@@ -235,6 +243,11 @@ margin-bottom: 120%;
 .Stew {
   display: flex;
   background-color: white;
+  margin-top: 5%;
+  margin-left: 10%;
+  height: 230px;
+  
+
 }
 
 .Plain {
@@ -243,6 +256,9 @@ margin-bottom: 120%;
   margin-left: 15%;
   border: solid white;
   background-color: white;
+  margin-right: 10%;
+  margin-top: 3%;
+  width: 230px;
 }
 
 .General1 {
@@ -280,17 +296,21 @@ margin-bottom: 120%;
 
 
 .T h5 {
-  color: orange;
+  color: #F19201;
 }
 
 .P1 h5 {
-  color: orange;
+  color: #F19201;
 }
 
 .S h5 {
-  color: orange;
+  color: #F19201;
 }
 
 .C h5 {
-  color: orange;
+  color: #F19201;
+}
+.footer {
+  text-align: center;
+background-color: black;
 }
