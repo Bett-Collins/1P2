@@ -37,11 +37,6 @@ body {
   background-color: #F19201;
 }
 
-.H {
-  color: ;
-
-}
-
 .A {
   color: white;
 }
@@ -49,7 +44,7 @@ body {
 .section1 {
   margin-left: 10%;
   color: white;
-  
+
 }
 
 .section p {
@@ -67,12 +62,12 @@ body {
   text-align: center;
   border: solid white;
   background-color: #E1EBE6;
-  
+
 }
 
 .Service h2 {
   color: #F19201;
-  
+
 }
 
 
@@ -220,7 +215,7 @@ margin-bottom: 120%;
   margin-top: 5%;
   margin-left: 5%;
   height: 230px;
-  
+
 }
 
 .Beaf {
@@ -231,22 +226,23 @@ margin-bottom: 120%;
   height: 230px;
   margin-top: 4%;
 
-  
+
 }
 
 .General {
   display: flex;
-  
+
   text-align: center;
-  
+
 }
+
 .Stew {
   display: flex;
   background-color: white;
   margin-top: 5%;
   margin-left: 10%;
-  height: 230px;
-  
+  width: 350px;
+
 
 }
 
@@ -258,12 +254,16 @@ margin-bottom: 120%;
   background-color: white;
   margin-right: 10%;
   margin-top: 3%;
-  width: 230px;
+  width: 350px;
+}
+.P1 {
+  width: 150px;
+  margin-right: 5%;
 }
 
 .General1 {
   display: flex;
- 
+
   text-align: center;
 
 }
@@ -272,9 +272,10 @@ margin-bottom: 120%;
   text-align: center;
   background-color: #E1EBE6;
 }
- .section4 {
-   background-color: #E1EBE6;
- }
+
+.section4 {
+  background-color: #E1EBE6;
+}
 
 
 
@@ -310,7 +311,8 @@ margin-bottom: 120%;
 .C h5 {
   color: #F19201;
 }
+
 .footer {
   text-align: center;
-background-color: black;
+  background-color: black;
 }
