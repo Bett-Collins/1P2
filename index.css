@@ -1,7 +1,8 @@
 body {
-  background-color: #E1EBE6;
+  background-color: E;
   width: 800px;
 }
+
 .header1 {
   background-image: url("images/image2.png");
   background-size: cover;
@@ -10,14 +11,17 @@ body {
 
 .header {
   display: flex;
-  
+
 }
+
 .logo {
   display: flex;
 }
+
 .logo h5 {
   color: orange;
 }
+
 .list ul {
   display: flex;
   padding: 0px 15px;
@@ -32,62 +36,76 @@ body {
 .list button {
   background-color: orange;
 }
-  .H {
-    color: orange;
-  }
+
+.H {
+  color: orange;
+}
+
 .A {
   color: white;
 }
+
 .section1 {
   margin-left: 10%;
   color: white;
   
 }
-  .section p {
-    font-weight: 600;
-    font-size: 500px;
-  }
+
+.section p {
+  font-weight: 600;
+  font-size: 500px;
+}
 
 
 
-.section1 button{
+.section1 button {
   background-color: orange;
 }
 
 .Service {
   text-align: center;
   border: solid white;
-}
-.Service h2 {
-color: orange;
+  background-color: #E1EBE6;
+  
 }
 
+.Service h2 {
+  color: orange;
   
+}
+
+
 
 
 #Order {
   display: flex;
- margin-left: 7%;
- margin-bottom: 3%;
+  margin-left: 7%;
+  margin-bottom: 3%;
+  height: 200px;
+  text-align: center;
 
 }
+
 .one {
   text-align: center;
   border: solid #E1EBE6;
   background-color: white;
+
 }
 
 .BTN {
   background-color: orange;
   font-size: 30px;
   border-radius: 100%;
+  margin-top: 13%;
+
 }
 
 .section3 {
   display: flex;
   background-color: black;
   color: white;
- 
+
 
 }
 
@@ -97,44 +115,59 @@ color: orange;
   margin-top: 3%;
   border: solid white;
 }
+
 .section4 h3 {
   color: orange;
   margin-left: 50%;
 }
+
 .section4 p {
   align-items: center;
-  margin-left: 8%;
+  margin-left: 10%;
+
+}
+
+/*
+.Menu {
+  display: flex;
+  margin-left: 10%;
+  border: solid grey;
+  background-color: white;
+  align-items: center;
+  margin-bottom: 44%;
+  width: 410px;
+
+}
+
+.Beaf {
+  display: flex;
+  margin: 7%;
+  border: solid grey;
+  background-color: white;
+width: 410px;
+  align-items: center;
+  margin-left: 10%;
+  margin-bottom:44%;
+  
+  
   
 }
 
-
-.Menu {
-  display: flex;
-  margin: 1%;
-  border: solid grey;
-  background-color: white;
-  align-items: center;
-  width: 330px;
-}
-.Beaf {
-  display: flex;
-  margin: 1%;
-  border: solid grey;
-  background-color: white;
-  width: 330px;
-  align-items: center;
-}
 .General {
-  display: flex;
-  height: 210px;
-  width: 330px;
+ 
+ width: fit-content;
+ height: 600px;
+ display: flex;
   align-items: center;
-}
-.C {
-margin: 1%;
-margin-bottom: 5%;
 
 }
+
+
+.C {
+  margin: 1%;
+  margin-bottom: 5%;
+}
+
 
 
 
@@ -143,47 +176,121 @@ margin-bottom: 5%;
 }
 
 .General1 {
-  
-  margin: 1%;
-  align-items: center;
-  margin-bottom: 5%;
-  display: flex;
-  height: 210px;
-  width: 330px;
+width: fit-content;
+width: 400px;
+display: flex;
+margin-bottom: 120%;
+
 }
+
 
 
 .Plain {
-  display: flex;
+ display: flex;
   border: solid grey;
   background-color: white;
-    margin-left: 5%;
-
+  margin-left: 10%;
+  margin-bottom: 100%;
+ 
 }
+
 .P {
   width: 215px;
   margin: 1%;
+  
 }
+
 .Stew {
   display: flex;
   border: solid grey;
   background-color: white;
+*/
+
 }
 
+.section4 {
+  text-align: center;
+}
+
+.Menu {
+  display: flex;
+  border: solid white;
+  background-color: white;
+}
+
+.Beaf {
+  display: flex;
+  border: solid white;
+  margin-left: 15%;
+  background-color: white;
+  
+}
+
+.General {
+  display: flex;
+  
+  text-align: center;
+  
+}
+.Stew {
+  display: flex;
+  background-color: white;
+}
+
+.Plain {
+  display: flex;
+  border: solid white;
+  margin-left: 15%;
+  border: solid white;
+  background-color: white;
+}
+
+.General1 {
+  display: flex;
+ 
+  text-align: center;
+
+}
+
+.All {
+  text-align: center;
+  background-color: #E1EBE6;
+}
+ .section4 {
+   background-color: #E1EBE6;
+ }
+
+
+
+
+
+
 .section5 {
-  margin: 35%;
   background-image: url('images/image8\ \(2\).png');
   background-size: cover;
+  color: white;
+  height: 300px;
+  width: 790px;
+  border: solid white;
+  text-align: center;
+  margin-top: 5%;
+
 }
+
+
+
 .T h5 {
   color: orange;
 }
+
 .P1 h5 {
   color: orange;
 }
+
 .S h5 {
   color: orange;
 }
+
 .C h5 {
   color: orange;
 }
