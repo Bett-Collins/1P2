@@ -6,7 +6,7 @@ body {
 
 .header {
   display: flex;
-  background-image: url('../../images/image2.png');
+  
 }
 .logo {
   display: flex;
@@ -14,11 +14,9 @@ body {
 .list ul {
   display: flex;
   list-style: none;
+  padding: 0px 15px;
+}
 
-}
-.list li {
-padding: 0px 15px;
-}
 
 
 
@@ -29,38 +27,33 @@ padding: 0px 15px;
   margin-left: 10%;
   
   margin-top: 2%;
+  background-image: url('../../images/image2 1.png');
 }
 .section1 button{
   background-color: yellow;
 }
-.section2 {
-  margin-left: 20%;
-  align-items: center;
+
+.Service {
+  text-align: center;
+  border: solid white;
+}
+.Service h2 {
+color: orange;
+}
 
   
-}
-.section2 h2 {
-  margin-left: 30%;
-  color: yellow;
-}
-.Service {
-  border: solid grey;
-}
+
 
 #Order {
   display: flex;
-  background-color: white;
-  width: 600px;
-  margin: 10%;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+ margin-left: 7%;
+ margin-bottom: 3%;
 
 }
 .one {
   text-align: center;
-  
   border: solid #E1EBE6;
+  background-color: white;
 }
 
 .BTN {
@@ -73,16 +66,22 @@ padding: 0px 15px;
   display: flex;
   background-color: black;
   color: white;
+ 
 
 }
 
-.P {
- margin-left: 2%;
-}
+
 .section4 {
+  align-items: center;
+  margin-top: 3%;
 }
 .section4 h3 {
+  color: yellow;
   margin-left: 50%;
+}
+.section4 p {
+  align-items: center;
+  margin-left: 8%;
 }
 
 .Menu {
@@ -90,48 +89,59 @@ padding: 0px 15px;
   margin: 1%;
   border: solid grey;
   background-color: white;
+  align-items: center;
+  width: 330px;
 }
 .Beaf {
   display: flex;
   margin: 1%;
   border: solid grey;
   background-color: white;
+  width: 330px;
+  align-items: center;
 }
-.C {
-margin: 2%;
-margin-bottom: 5%;
-}
-
-.Beaf {
-  display: flex;
-  margin: 1%;
-}
-
-.S {
-  margin: 2%;
-}
-
 .General {
   display: flex;
-  margin-left: 15%;
+}
+.C {
+margin: 1%;
+margin-bottom: 5%;
+
 }
 
 
-.Plain{
+
+.S {
+  margin: 1%;
+}
+
+.General1 {
+  width: 330px;
+  margin: 1%;
+  align-items: center;
+  margin-bottom: 5%;
   display: flex;
-  margin: 2%;
+}
+
+
+.Plain {
+  display: flex;
   border: solid grey;
   background-color: white;
+    margin-left: 5%;
+
+}
+.P {
+  width: 215px;
+  margin: 1%;
 }
 .Stew {
   display: flex;
- margin: 2%;
   border: solid grey;
   background-color: white;
 }
-.General1 {
-  display: flex;
-}
+
 .section5 {
   margin: 35%;
+  background-image: url('../../images/image2 1.png');
 }
