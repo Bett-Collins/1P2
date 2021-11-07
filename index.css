@@ -2,7 +2,11 @@ body {
   background-color: #E1EBE6;
   width: 800px;
 }
-
+.header1 {
+  background-image: url("images/image2.png");
+  background-size: cover;
+  height: 350px;
+}
 
 .header {
   display: flex;
@@ -11,26 +15,43 @@ body {
 .logo {
   display: flex;
 }
+.logo h5 {
+  color: orange;
+}
 .list ul {
   display: flex;
+  padding: 0px 15px;
   list-style: none;
   padding: 0px 15px;
+
 }
 
 
 
 
 .list button {
-  background-color: yellow;
+  background-color: orange;
+}
+  .H {
+    color: orange;
+  }
+.A {
+  color: white;
 }
 .section1 {
   margin-left: 10%;
+  color: white;
   
-  margin-top: 2%;
-  background-image: url('../../images/image2 1.png');
 }
+  .section p {
+    font-weight: 600;
+    font-size: 500px;
+  }
+
+
+
 .section1 button{
-  background-color: yellow;
+  background-color: orange;
 }
 
 .Service {
@@ -57,7 +78,7 @@ color: orange;
 }
 
 .BTN {
-  background-color: tomato;
+  background-color: orange;
   font-size: 30px;
   border-radius: 100%;
 }
@@ -74,15 +95,18 @@ color: orange;
 .section4 {
   align-items: center;
   margin-top: 3%;
+  border: solid white;
 }
 .section4 h3 {
-  color: yellow;
+  color: orange;
   margin-left: 50%;
 }
 .section4 p {
   align-items: center;
   margin-left: 8%;
+  
 }
+
 
 .Menu {
   display: flex;
@@ -102,6 +126,9 @@ color: orange;
 }
 .General {
   display: flex;
+  height: 210px;
+  width: 330px;
+  align-items: center;
 }
 .C {
 margin: 1%;
@@ -116,11 +143,13 @@ margin-bottom: 5%;
 }
 
 .General1 {
-  width: 330px;
+  
   margin: 1%;
   align-items: center;
   margin-bottom: 5%;
   display: flex;
+  height: 210px;
+  width: 330px;
 }
 
 
@@ -143,5 +172,18 @@ margin-bottom: 5%;
 
 .section5 {
   margin: 35%;
-  background-image: url('../../images/image2 1.png');
+  background-image: url('images/image8\ \(2\).png');
+  background-size: cover;
+}
+.T h5 {
+  color: orange;
+}
+.P1 h5 {
+  color: orange;
+}
+.S h5 {
+  color: orange;
+}
+.C h5 {
+  color: orange;
 }
